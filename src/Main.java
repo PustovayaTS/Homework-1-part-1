@@ -1,22 +1,16 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание №1");
-        for (int i = 1; i<=10; i++) {
-            System.out.println("Итерацция цикла " + i);
+        for (int i = 1904; i <= 2096; i = i + 4) {
+            System.out.println(i + " год является високосным");
         }
         System.out.println("Задание №2");
-        for (int k = 10; k>=1; k--) {
-            System.out.println("Итерацция цикла " + k);
+        for (int v = 7; v <= 98; v = v + 7) {
+             System.out.println(v);
         }
         System.out.println("Задание №3");
-        for (int d = 0; d<=17; d++) {
-            if (d % 2 == 0) {
-                System.out.println("Итерацция цикла " + d);
-            }
-        System.out.println("Задание №4");
-        for (int v = 10; v>=-10; v--) {
-            System.out.println("Итерацция цикла " + v);
-        }
+        for (int d = 1; d <= 512; d = d * 2) {
+            System.out.println(d);
         }
     }
 }
