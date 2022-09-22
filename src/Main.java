@@ -9,10 +9,8 @@ public class Main {
             System.out.println("Итерацция цикла " + k);
         }
         System.out.println("Задание №3");
-        for (int d = 0; d<=17; d++) {
-            if (d % 2 == 0) {
-                System.out.println("Итерацция цикла " + d);
-            }
+        for (int d = 0; d<=17; d = d + 2) {
+            System.out.println("Итерацция цикла " + d);
         }
         System.out.println("Задание №4");
         for (int v = 10; v>=-10; v--) {
